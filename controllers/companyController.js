@@ -4,6 +4,7 @@ const AppError = require('../util/AppError')
 const logger = require("../util/logger");
 const Company = require('../models/companyModel')
 const axios = require('axios')
+const {getDecryption} = require('../util/crypt')
 
 exports.createCompany = catchAsync(async (req, res, next) => {
     const { companyName, parentHostList, adminEmail, adminPhone, iconUrl, iconLabel, iconDesc, themeType } = req.body
@@ -63,11 +64,12 @@ const sendWebHookOnNewMsg = async (msg) => {
 
         // For post webhook
         if (company?.onNewMsgWegHookPost && company.onNewMsgWegHookPostToken) {
+            const decToken = getDecryption(company.onNewMsgWegHookPostToken)
             logger.writeLog("companyController")
                 .info(`${__filename}: sendWebHookOnNew() :: companyId=${company._id} onNewMsgWegHookPost=${company.onNewMsgWegHookPost}`)
             await axios.post(company.onNewMsgWegHookPost, msg, {
                 headers: {
-                    Authorization: company.onNewMsgWegHookPostToken,
+                    Authorization: decToken,
                     'Content-Type': 'application/json',
                 },
             })

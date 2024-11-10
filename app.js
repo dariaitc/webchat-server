@@ -36,9 +36,13 @@ const app = express();
 const httpServer = createServer(app);
 
 // Define allowed origins
-const allowedOrigins = [
+let allowedOrigins = [
     'http://localhost:3008'
 ];
+
+if(process.env.SOCKETIO_CROS_ORIGINS){
+    allowedOrigins = process.env.SOCKETIO_CROS_ORIGINS.split(',')
+}
 
 const io = new Server(httpServer, {
     cors: {
