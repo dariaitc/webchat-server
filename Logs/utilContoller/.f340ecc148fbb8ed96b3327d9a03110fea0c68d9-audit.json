@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "Logs\\utilContoller\\.f340ecc148fbb8ed96b3327d9a03110fea0c68d9-audit.json",
+    "files": [
+        {
+            "date": 1729067796604,
+            "name": "Logs\\utilContoller\\utilContoller_2024-10-16.log",
+            "hash": "d539da04afc10f33137d4f935cb907d7"
+        },
+        {
+            "date": 1729594382237,
+            "name": "Logs\\utilContoller\\utilContoller_2024-10-22.log",
+            "hash": "dd43aebb07a43afa49ede0b92d40210b"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+2024-11-07T07:17:37.420Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: createNewChat() :: companyId=670f7b81da32b58985313506 userId=6727270ba5a50035a110d0ae;
+2024-11-07T07:17:37.694Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=undefined chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:40.148Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=6727270ba5a50035a110d0ae chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:40.377Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=undefined chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:41.723Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=6727270ba5a50035a110d0ae chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:41.934Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=undefined chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:44.380Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=6727270ba5a50035a110d0ae chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T07:17:44.588Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: getChatById() :: companyId=670f7b81da32b58985313506 userId=undefined chatId=672c69912d28f8e2b93a0e94;
+2024-11-07T13:26:10.378Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: createNewChat() :: companyId=670f7b81da32b58985313506 userId=6728924132e93bc2aed725fb;
+2024-11-07T13:26:16.409Z:info:C:\Project\EffectiveWebChatServer\controllers\chatController.js: createNewChat() :: companyId=670f7b81da32b58985313506 userId=6728924132e93bc2aed725fb;
