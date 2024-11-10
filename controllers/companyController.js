@@ -64,7 +64,7 @@ const sendWebHookOnNewMsg = async (msg) => {
 
         // For post webhook
         if (company?.onNewMsgWegHookPost && company.onNewMsgWegHookPostToken) {
-            const decToken = getDecryption(company.onNewMsgWegHookPostToken)
+            const decToken = `Bearer ${getDecryption(company.onNewMsgWegHookPostToken)}`
             logger.writeLog("companyController")
                 .info(`${__filename}: sendWebHookOnNew() :: companyId=${company._id} onNewMsgWegHookPost=${company.onNewMsgWegHookPost}`)
             await axios.post(company.onNewMsgWegHookPost, msg, {
